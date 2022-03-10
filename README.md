@@ -25,10 +25,11 @@ go run cmd/main.go
 
 ## Dependence
 
-| name                         | package                                                                                                      | description                 | version |
-|:-----------------------------|:-------------------------------------------------------------------------------------------------------------|:----------------------------|:-------:|
-| dubbo-go-starter             | [github.com/dubbogo/dubbo-go-boot-starter](https://github.com/dubbogo/dubbo-go-boot-starter)                         | dubbo-go project boot suite | v0.1.5  |
-| dubbo-go-middleware-database | [github.com/dubbogo/dubbo-go-boot-middleware-database](https://github.com/dubbogo/dubbo-go-boot-middleware-database) | database middleware         | v0.1.5  |
-| dubbo-go-middleware-redis    | [github.com/dubbogo/dubbo-go-boot-middleware-redis](https://github.com/dubbogo/dubbo-go-boot-middleware-redis)       | memory cache middleware     | v0.1.5  |
-| dubbo-go-middleware-web      | [github.com/dubbogo/dubbo-go-boot-middleware-web](https://github.com/dubbogo/dubbo-go-boot-middleware-web)           | web service middleware      | v0.1.5  |
-| dubbo-go-middleware-dubbo    | [github.com/dubbogo/dubbo-go-boot-middleware-dubbo](https://github.com/dubbogo/dubbo-go-boot-middleware-dubbo)       | dubbo middleware            | v0.1.5  |
+| name                         | package                                                                                                                                          | description                 | version |
+|:-----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------|:-------:|
+| dubbo-go-starter             | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-starter](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-starter)                         | dubbo-go project boot suite |         |
+| dubbo-go-middleware-database | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-database](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-database) | database middleware         |         |
+| dubbo-go-middleware-redis    | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-redis](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-redis)       | memory cache middleware     |         |
+| dubbo-go-middleware-web      | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-web](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-web)           | web service middleware      |         |
+| dubbo-go-middleware-dubbo    | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-dubbo](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-dubbo)       | dubbo middleware            |         |
+

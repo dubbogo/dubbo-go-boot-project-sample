@@ -24,10 +24,10 @@ go run cmd/main.go
 
 ## 组件
 
-| 名称                           | 包                                                                                                            | 描述              |  最新版本  |
-|:-----------------------------|:-------------------------------------------------------------------------------------------------------------|:----------------|:------:|
-| dubbo-go-starter             | [github.com/dubbogo/dubbo-go-boot-starter](https://github.com/dubbogo/dubbo-go-boot-starter)                         | dubbo-go 项目启动套件 | v0.1.5 |
-| dubbo-go-middleware-database | [github.com/dubbogo/dubbo-go-boot-middleware-database](https://github.com/dubbogo/dubbo-go-boot-middleware-database) | 数据库中间件          | v0.1.5 |
-| dubbo-go-middleware-redis    | [github.com/dubbogo/dubbo-go-boot-middleware-redis](https://github.com/dubbogo/dubbo-go-boot-middleware-redis)       | 内存缓存中间件         | v0.1.5 |
-| dubbo-go-middleware-web      | [github.com/dubbogo/dubbo-go-boot-middleware-web](https://github.com/dubbogo/dubbo-go-boot-middleware-web)           | Web服务中间件        | v0.1.5 |
-| dubbo-go-middleware-dubbo    | [github.com/dubbogo/dubbo-go-boot-middleware-dubbo](https://github.com/dubbogo/dubbo-go-boot-middleware-dubbo)       | dubbo服务中间件      | v0.1.5 |
+| 名称                                | 包                                                                                                                                                | 描述            | 版本号 |
+|:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:---:|
+| dubbo-go-boot-starter             | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-starter](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-starter)                         | 项目启动器         |     |
+| dubbo-go-boot-middleware-database | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-database](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-database) | 数据库中间件        |     |
+| dubbo-go-boot-middleware-redis    | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-redis](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-redis)       | 内存缓存中间件       |     |
+| dubbo-go-boot-middleware-web      | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-web](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-web)           | Web服务中间件      |     |
+| dubbo-go-boot-middleware-dubbo    | [github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-dubbo](https://github.com/dubbogo/dubbo-go-boot/dubbo-go-boot-middleware-dubbo)       | dubbo-go服务中间件 |     |
