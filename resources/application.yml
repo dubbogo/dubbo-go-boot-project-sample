@@ -1,0 +1,47 @@
+server: # Web Service
+  host: 0.0.0.0
+  port: 8280
+
+
+redis: # Redis driver
+  host: 127.0.0.1
+  port: 6379
+  password: root
+  defaultDb: 0
+
+
+database: # Database driver
+  dialect: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: github.com/dubbogo/dubbo-go-boot-project-sample
+  username: root
+  password: root
+
+
+dubbo: # Dubbo Go Service
+  registries:
+    github.com/dubbogo/dubbo-go-boot-project-sample:
+      protocol: nacos
+      timeout: 3s
+      address: 192.168.1.61:8848
+      group: DEFAULT_GROUP
+      namespace: public
+  protocols:
+    dubbo:
+      name: dubbo
+      port: 20000
+  consumer:
+    references:
+      ApiPingConsumer:
+        protocol: dubbo
+        interface: com.chansos.dubbogo.service.ApiPingService
+        version: 1.0.0
+        group: dubbo-go
+  provider:
+    services:
+      ApiPingProvider:
+        protocol: dubbo
+        interface: com.chansos.dubbogo.service.ApiPingService
+        version: 1.0.0
+        group: dubbo-go
